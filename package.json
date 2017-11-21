@@ -1,0 +1,32 @@
+{
+  "name": "oop-output",
+  "version": "1.0.0",
+  "description": "For my bootcamp project",
+  "main": "src/person.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register tests/persontest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emp-daisy/OOP-Output.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emp-daisy/OOP-Output/issues"
+  },
+  "homepage": "https://github.com/emp-daisy/OOP-Output#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
