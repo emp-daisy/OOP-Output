@@ -9,6 +9,7 @@ import {
 
 describe('Inheritance', function () {
     describe('valid input', function () {
+        //OBJECT CONCEPT
         const person = new Supervisor('Miss', 'Madufor', 'Jessica', '13/12/1996', 'adajess01@gmail.com', '001');
         const emp = new Employee('Mrs', 'Madufor', 'Adachi', '13/12/1996', 'adajess01@gmail.com', '001');
 
@@ -28,7 +29,7 @@ describe('Inheritance', function () {
             assert.deepEqual(person.addNewMember(emp)[0], emp);
         });
         it('Should return an empty array', function () {
-            assert.equal(person.removeMember(emp), []);
+            assert.deepEqual(person.removeMember(emp), []);
         });
     });
 });
